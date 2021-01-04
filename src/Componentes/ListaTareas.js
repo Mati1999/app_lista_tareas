@@ -1,7 +1,7 @@
 import React from 'react';
 import Tarea from './Tarea';
 
-function ListaTareas({tareas, cambiarTareas, mostrarCompletadas}) {
+const ListaTareas({tareas, cambiarTareas, mostrarCompletadas}) {
 
     const toggleCompletada = (id) => {
         console.log('editando tarea con id:', id);
